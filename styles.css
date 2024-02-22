@@ -7,13 +7,20 @@ body{
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   min-height: 100vh;
 }
 
 main{
   flex-grow: 1;
+}
+
+.heroSection{
+  background-image: url(images/nasa-Yj1M5riCKk4-unsplash.jpg);
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  text-align: center;
+
 }
 
 header, footer{
